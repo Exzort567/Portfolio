@@ -790,4 +790,47 @@ button:focus {
 }
 
 
+/* Projects */
 
+.portfolio-nav {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f4c1ff;
+}
+
+.portfolio-nav li {
+  list-style-type: none;
+}
+
+.portfolio-nav li a {
+  padding: 0.5rem 1rem;
+}
+
+.portfolio-nav li a:hover {
+  color: #f278ff !important;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+/* Media Queries for responsiveness */
+
+/* For medium-sized screens */
+@media only screen and (max-width: 768px) {
+  .portfolio-nav li a {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* For small/mobile screens */
+@media only screen and (max-width: 576px) {
+  .portfolio-nav {
+    flex-wrap: wrap;
+  }
+  
+  .portfolio-nav li {
+    margin: 0.5rem;
+  }
+}
