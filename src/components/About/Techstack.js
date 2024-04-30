@@ -24,6 +24,7 @@ import {
   SiPytorch,
   SiJupyter,
   SiPrisma,
+  SiTailwindcss,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -48,6 +49,10 @@ function Techstack() {
       <Col xs={2} md={1} className="tech-icons">
         <SiNextdotjs />
         <p className="tech-names">Next.js</p>
+      </Col>
+      <Col xs={2} md={1} className="tech-icons">
+        <SiTailwindcss />
+        <p className="tech-names">Tailwind Css</p>
       </Col>
       <Col xs={2} md={1} className="tech-icons">
         <SiHtml5 />
@@ -80,7 +85,7 @@ function Techstack() {
     </Row>
     {/* Machine Learning */}
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <b className="purple">Deep Learning</b>
+      <b className="purple">Machine Learning</b>
       <Col xs={4} md={1} className="tech-icons">
         <DiPython />
         <p className="tech-names">Python</p>

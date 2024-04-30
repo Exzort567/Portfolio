@@ -19,6 +19,7 @@ import {
   SiNextdotjs,
   SiGoland,
   SiFastapi,
+  SiTailwindcss,
 } from "react-icons/si";
 import {
   DiJavascript1,
@@ -153,6 +154,10 @@ const skills = [
       {
         name: "Cypress",
         icon: SiCypress,
+      },
+      {
+        name: "Tailwind",
+        icon: SiTailwindcss
       },
     ],
   },
