@@ -10,7 +10,7 @@ This repository contains the source code for my personal website.
 
 ```bash
 npm install
-npm run dev
+npm start
 ```
 
 
