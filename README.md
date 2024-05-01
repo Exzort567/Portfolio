@@ -16,4 +16,5 @@ npm run dev
 
 ## 🪄 Acknowledgement
 
-This web was originally modified from [soumyajit4419](https://github.com/soumyajit4419)'s [portfolio page](https://github.com/soumyajit4419/Portfolio) and it is now vastly different.
+This web was originally modified from [soumyajit4419](https://github.com/soumyajit4419)'s [portfolio page](https://github.com/soumyajit4419/Portfolio) 
+
