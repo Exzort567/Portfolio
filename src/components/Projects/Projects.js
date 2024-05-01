@@ -8,45 +8,47 @@
   import chatify from "../../Assets/Projects/chatify.png";
   import suicide from "../../Assets/Projects/suicide.png";
   import bitsOfCode from "../../Assets/Projects/blog.png";
+  import beanLeaf from "../../Assets/Projects/bean_leaf.png"
+  import bitcoinforecast from '../../Assets/Projects/bitcoin-forecast.png'
+  import tradepinas from '../../Assets/Projects/tradepinas.png'
   import PortfolioItem from './PortfolioItem'
 
   const portfoliolist = [
     {
       id: 1,
-      imgPath: chatify,
+      imgPath: beanLeaf,
       isBlog: false,
-      title: "Charify",
-      description: "Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages.",
-      ghLink: "https://github.com/soumyajit4419/Chatify",
-      demoLink: "https://chatify-49.web.app/",
-      category: "web development"
+      title: "Bean Leaf Disease Classification",
+      description: "Using Tensorflow, Google Colab and Streamlit to design, build, train, evaluate a CNN model and Deploy a web app capable of identifying bean leaf diseases into three classes: healthy, bean rust, and angular leaf spot.",
+      ghLink: "https://github.com/Exzort567/cnn_bean_leaf_disease",
+      demoLink: "https://cnnbeanleafdisease.streamlit.app/",
+      category: "machine learning"
     },
     {
         id: 2,
-        imgPath: editor,
+        imgPath: bitcoinforecast,
         isBlog: false,
-        title: "Trade Pinas",
-        description: "Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages.",
-        ghLink: "https://github.com/soumyajit4419/Chatify",
-        demoLink: "https://chatify-49.web.app/",
-        category: "machine learning"
+        title: "Bitcoin forecast",
+        description: "Bitcoin Forecast: Your go-to app for accurate predictions on Bitcoin trends. Utilizing React and Vercel",
+        ghLink: "https://github.com/Exzort567/BitcoinForecast",
+        demoLink: "https://bitcoin-forecast.vercel.app/",
+        category: "web development"
     },
     {
         id: 3,
-        imgPath: emotion,
+        imgPath: tradepinas,
         isBlog: false,
-        title: "TeamDir",
-        description: "Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages.",
-        ghLink: "https://github.com/soumyajit4419/Chatify",
-        demoLink: "https://chatify-49.web.app/",
-        category: "applications"
+        title: "Trade Pinas",
+        description: "Trade Pinas: Your premier destination for trading insights across Forex, stocks, and cryptocurrencies. Powered by Vite and React, our dynamic blog delivers expert analysis, and market trends. With Vercel deployment.",
+        ghLink: "https://github.com/Exzort567/tradepinas",
+        demoLink: "https://tradepinas.vercel.app/",
+        category: "web development"
     }
   ];
   const categorylist = [
     { id: 1, category: "all", value: "all" },
     { id: 2, category: "web development", value: "all" },
-    { id: 3, category: "applications", value: "all" },
-    { id: 4, category: "machine learning", value: "all" },
+    { id: 3, category: "machine learning", value: "all" },
     
   ];
 
