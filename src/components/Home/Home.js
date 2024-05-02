@@ -33,6 +33,7 @@ function Home() {
     <>
       {/* Home Section */}
       <section id="home">
+       
         <Container fluid className="home-section home-about-section"  id="home">
           <Container className="home-content">
             <Row>

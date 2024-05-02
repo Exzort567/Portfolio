@@ -4,8 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+import { RiContactsFill } from "react-icons/ri";
+
 import {
   AiFillStar,
   AiOutlineHome,
@@ -13,7 +13,8 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
-import { CgFileDocument } from "react-icons/cg";
+
+import { GiSkills } from "react-icons/gi";
 
 
 
@@ -95,7 +96,7 @@ function NavBar() {
                 updateExpanded(false);
               }}
             >
-              <AiOutlineUser style={{ marginBottom: "2px" }} /> Skills
+              <GiSkills style={{ marginBottom: "2px" }} /> Skills
             </Nav.Link>
             </Nav.Item>
 
@@ -142,7 +143,7 @@ function NavBar() {
                 updateExpanded(false);
               }}
             >
-              <AiOutlineUser style={{ marginBottom: "2px" }} /> Contact
+              <RiContactsFill style={{ marginBottom: "2px" }} /> Contact
             </Nav.Link>
             </Nav.Item>
 
