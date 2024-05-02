@@ -86,11 +86,12 @@ function Home() {
               <br />
               <br />My interest lies at the intersection of 
               <i>
-                <b className="purple"> Machine Learning and Web development. </b>
+                <b className="purple"> Machine Learning</b> and<b className="purple">  Web development. </b> 
               </i>
+              
               Additionally, I'm intrigued by <b className="purple">Crypto and Forex trading </b>
-              and I recently achieved success by winning a trading competition hosted by My Funded Fx prop firm.
-              <a target="_blank" href="https://x.com/myfundedfx/status/1652684119313199109?s=46&t=v3dtp2VT7YDF7OmmOQYAqg"> <b className="purple">link</b></a>
+              and I recently achieved success by winning a trading competition hosted by
+              <a target="_blank" href="https://x.com/myfundedfx/status/1652684119313199109?s=46&t=v3dtp2VT7YDF7OmmOQYAqg" class="purple-link"> <b className="purple">My Funded Fx prop firm.</b></a>
               <br />
               <br />
              

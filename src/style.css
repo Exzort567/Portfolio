@@ -18,6 +18,16 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+.purple-link {
+  color: purple; /* Sets the color of the text */
+  text-decoration: underline rgb(255, 110, 255); /* Sets the color of the underline */
+}
+
+.purple-link:hover {
+  color: purple; /* Sets the color of the text */
+  text-decoration: underline rgb(255, 216, 255); /* Sets the color of the underline */
+}
+
 button:focus {
   box-shadow: none !important;
 }
