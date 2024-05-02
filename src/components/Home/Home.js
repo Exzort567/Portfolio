@@ -6,20 +6,14 @@ import {
   AiOutlineTwitter,
 } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
-import { FaTiktok } from "react-icons/fa";
+import { FaTiktok, FaFacebook } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import homeLogo from "../../Assets/home-main.svg";
 import Type from "./Type";
 import Github from "../About/Github";
 import Toolstack from "../About/Toolstack";
 import Techstack from "../About/Techstack";
-import ProjectCard from "../Projects/ProjectCards";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+
 import myImg from "../../Assets/gwapo.jpeg";
 
 import Projects from "../Projects/Projects";
@@ -175,7 +169,7 @@ function Home() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Exzort567"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -185,17 +179,17 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://www.facebook.com/kenneth.quibel.71"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <FaFacebook />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/kennethquibel/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
