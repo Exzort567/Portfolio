@@ -1,13 +1,7 @@
   import React, { useMemo, useState } from "react";
   import { Container, Row, Col } from "react-bootstrap";
-  import ProjectCard from "./ProjectCards";
   import Particle from "../Particle";
-  import leaf from "../../Assets/Projects/leaf.png";
-  import emotion from "../../Assets/Projects/emotion.png";
-  import editor from "../../Assets/Projects/codeEditor.png";
-  import chatify from "../../Assets/Projects/chatify.png";
-  import suicide from "../../Assets/Projects/suicide.png";
-  import bitsOfCode from "../../Assets/Projects/blog.png";
+  import teamdir from '../../Assets/Projects/teamdir.png'
   import beanLeaf from "../../Assets/Projects/bean_leaf.png"
   import bitcoinforecast from '../../Assets/Projects/bitcoin-forecast.png'
   import tradepinas from '../../Assets/Projects/tradepinas.png'
@@ -25,7 +19,17 @@
       category: "machine learning"
     },
     {
-        id: 2,
+      id: 2,
+      imgPath: teamdir,
+      isBlog: false,
+      title: "Teamdir",
+      description: "teamdir: Your ultimate hub for Valorant enthusiasts, offering a social networking platform tailored for players. Built on Prisma and MongoDB for robust data management, teamdir provides a seamless experience powered by Next.js. With Vercel deployment, connect with fellow gamers, and form teams.",
+      ghLink: "https://github.com/Exzort567/teamdir",
+      demoLink: "https://teamdir.vercel.app/",
+      category: "web development"
+    },
+    {
+        id: 3,
         imgPath: bitcoinforecast,
         isBlog: false,
         title: "Bitcoin forecast",
@@ -35,7 +39,7 @@
         category: "web development"
     },
     {
-        id: 3,
+        id: 4,
         imgPath: tradepinas,
         isBlog: false,
         title: "Trade Pinas",
