@@ -23,7 +23,7 @@
       imgPath: teamdir,
       isBlog: false,
       title: "Teamdir",
-      description: "teamdir: Your ultimate hub for Valorant enthusiasts, offering a social networking platform tailored for players. Built on Prisma and MongoDB for robust data management, teamdir provides a seamless experience powered by Next.js. With Vercel deployment, connect with fellow gamers, and form teams.",
+      description: "teamdir: Your ultimate hub for Valorant enthusiasts, offering a social networking platform tailored for players. Built on Prisma and MongoDB for robust data management, teamdir provides a seamless experience powered by Next.js. With Vercel deployment, connect with fellow gamers, and form teams. Account: username: demo@gmail.com password: demo567",
       ghLink: "https://github.com/Exzort567/teamdir",
       demoLink: "https://teamdir.vercel.app/",
       category: "web development"
