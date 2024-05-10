@@ -6,6 +6,7 @@
   import bitcoinforecast from '../../Assets/Projects/bitcoin-forecast.png'
   import tradepinas from '../../Assets/Projects/tradepinas.png'
   import PortfolioItem from './PortfolioItem'
+  import f1Peeps from '../../Assets/Projects/f1Peeps.png'
 
   const portfoliolist = [
     {
@@ -47,7 +48,17 @@
         ghLink: "https://github.com/Exzort567/tradepinas",
         demoLink: "https://tradepinas.vercel.app/",
         category: "web development"
-    }
+    },
+    {
+      id: 4,
+      imgPath: f1Peeps,
+      isBlog: false,
+      title: "F1 Peeps",
+      description: "F1 Peeps: Your Formula 1 Dashboard powered by React and Ergast API. Deployed on Vercel, this project is my journey into API integration with a focus on Formula 1 data.",
+      ghLink: "https://github.com/Exzort567/F1-Peeps",
+      demoLink: "https://f1-peeps.vercel.app/",
+      category: "web development"
+  }
   ];
   const categorylist = [
     { id: 1, category: "all", value: "all" },
