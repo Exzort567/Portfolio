@@ -109,14 +109,14 @@ function Home() {
               <ul>
                 <li>🎮 Playing Games</li>
                 <li>📺 Watching TV shows</li>
-                <li>🎥 Creating TikTok Content <a
-                href="https://www.tiktok.com/@kkkinittt?_t=8lw3nv1WVG6&_r=1"
+                <li>🎥 Creating <a target="_blank" href="https://www.tiktok.com/@kkkinittt?_t=8lw3nv1WVG6&_r=1"class="purple-link"> <b className="purple">Tiktok Content</b></a> <a
+                
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
                 
               >
-                <FaTiktok />
+
               </a></li>
               </ul>
 
