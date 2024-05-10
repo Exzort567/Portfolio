@@ -14,7 +14,7 @@ import Github from "../About/Github";
 import Toolstack from "../About/Toolstack";
 import Techstack from "../About/Techstack";
 
-import myImg from "../../Assets/gwapo.jpeg";
+import myImg from "../../Assets/qt.jpg";
 
 import Projects from "../Projects/Projects";
 
