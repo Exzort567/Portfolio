@@ -18,10 +18,15 @@ import myImg from "../../Assets/qt.jpg";
 
 import Projects from "../Projects/Projects";
 
+import codingPerson from '../../Assets/lottie/codingPerson.json'
+import DisplayLottie from "../DisplayLottie/DisplayLottie";
 
 
 
 function Home() {
+  const illustration = {
+    animated: true // Set to false to use static SVG
+  };
   
   return (
     <>
@@ -52,13 +57,15 @@ function Home() {
 
               <Col md={5} style={{ paddingBottom: 20 }}>
                 {/* Home Image */}
-                <img
-                  src={homeLogo}
-                  alt="home pic"
-                  className="img-fluid"
-                  style={{ maxHeight: "450px" }}
-                />
-              </Col>
+                {illustration.animated ? (
+                  <DisplayLottie animationData={codingPerson} />
+                ) : (
+                      <img
+                        alt="Man Working"
+                        src={require("../../Assets/developerActivity.svg")}
+                      ></img>
+                    )}
+                </Col>
             </Row>
           
             
