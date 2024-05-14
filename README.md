@@ -16,5 +16,5 @@ npm start
 
 ## 🪄 Acknowledgement
 
-This web was originally modified from [soumyajit4419](https://github.com/soumyajit4419)'s [portfolio page](https://github.com/soumyajit4419/Portfolio) 
+This web was originally modified from [soumyajit4419](https://github.com/soumyajit4419)'s [portfolio page](https://github.com/soumyajit4419/Portfolio) and now, it has changed significantly.
 
